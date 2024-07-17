@@ -12,7 +12,7 @@ class IndexManager:
         Settings.chunk_overlap = chunk_overlap
         # Settings.embed_model = OpenAIEmbedding(model=embed_model)
 
-        api_key = "AIzaSyDyKc04UhM-QGyhXo02TnUBzquFPXKuz5o"
+        api_key = "AIzaSyDyKc04UhM-QGyhXo02Tn"
         Settings.embed_model = GooglePaLMEmbedding(model_name=embed_model, api_key=api_key)
 
     def create_indices(self, doc_set):
